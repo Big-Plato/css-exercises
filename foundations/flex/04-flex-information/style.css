@@ -24,3 +24,46 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+}
+.section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  padding: 10px;
+  flex: 1;
+}
+
+/* Odin project solution. That's why I have to learn so much more */
+/* body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+} */

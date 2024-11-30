@@ -27,3 +27,59 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My solution */
+.container {
+  display: flex;
+  flex-direction: row;  
+}
+
+.card-side {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+  height: 400px;
+  flex-shrink: 1;
+}
+
+.sidebar {
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  flex: 1;
+  flex-wrap: wrap;
+  /* padding-right: 100px;
+  display: flex;
+  flex-direction: column; */
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  flex-grow: 1;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px 0 0 16px;
+}
